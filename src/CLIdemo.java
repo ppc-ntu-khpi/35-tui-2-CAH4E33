@@ -1,21 +1,3 @@
-# UI Lab 2 
-![](https://github.com/ppc-ntu-khpi/35-tui-2-CAH4E33/blob/master/Images/terminal-icon.png)
-![](https://github.com/ppc-ntu-khpi/35-tui-2-CAH4E33/blob/master/Images/gui-icon.png)
-
-## На "чотири"
-1. Перепишіть код  так, щоб інформація про клієнтів банку та їх рахунки читалась з файлу **test.dat** (робота номер 8, [файл даних](https://github.com/liketaurus/TUI-Labs/blob/master/data/test.dat) також є в цьому ж репозиторію).
-2. Запустіть проект, впевніться, що все працює як очікувалось. Продемонстрируйте результат викладачеві.
-
-![](https://github.com/ppc-ntu-khpi/35-tui-2-CAH4E33/blob/master/Images/Result4.png)
-
-## На "п'ять"
-1. Додайте ще одну команду - **report**, яка має виводити звіт за клієнтами такого ж виду, як у роботі номер 8 (див. CustomerReport).
-2. Запустіть проект, впевніться, що все працює як очікувалось. Продемонстрируйте результат викладачеві.
-
-![](https://github.com/ppc-ntu-khpi/35-tui-2-CAH4E33/blob/master/Images/Resutl5.png)
-
-* ## Код класу CLIdemo
-```java
 import com.mybank.data.DataSource;
 import com.mybank.domain.Bank;
 import com.mybank.domain.CheckingAccount;
@@ -178,5 +160,3 @@ public class CLIdemo {
         shell.run();
     }
 }
-```
-
